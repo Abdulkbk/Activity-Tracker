@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div.wrapper {
+  background-color: #fec0fa;
+  background-image: url('../public/background-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cus-bg-1 {
+  background-color: #fec0fa;
+}
+
+.cus-bg-2 {
+  background-color: #fc43f1;
+}
