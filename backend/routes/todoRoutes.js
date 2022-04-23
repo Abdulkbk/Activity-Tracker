@@ -14,7 +14,7 @@ router.post('/', createTodo)
 
 router.put('/:id', updateTodo)
 
-router.put('/done/:id', markTodo)
+router.put('/completed/:id', markTodo)
 
 router.delete('/:id', deleteTodo)
 
