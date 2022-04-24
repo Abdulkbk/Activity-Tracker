@@ -5,8 +5,7 @@
 }
 
 div.wrapper {
-  background-color: #fec0fa;
-  background-image: url('../public/background-image.png');
+  background-color: #a1afa4;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,10 +13,30 @@ div.wrapper {
   height: 100vh;
 }
 
+.cus-text {
+  color: #e9eaee;
+}
+
 .cus-bg-1 {
-  background-color: #fec0fa;
+  background-color: #e9eaee;
 }
 
 .cus-bg-2 {
-  background-color: #fc43f1;
+  background-color: #a1afa4;
+}
+
+.cus-bg-5 {
+  background-color: #f39810;
+}
+
+.cus-bg-6 {
+  background-color: #115dff;
+}
+
+.cus-bg-8 {
+  background-color: #40b86e;
+}
+
+.border-cus-8 {
+  border-color: #40b86e;
 }
