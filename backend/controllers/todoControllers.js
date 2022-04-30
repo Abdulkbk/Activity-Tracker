@@ -3,6 +3,7 @@ const asyncHandler = require('express-async-handler')
 const Todos = require('../models/todoModel')
 
 const getTodos = asyncHandler(async (req, res) => {
+  console.log('Getting your todos')
   const todo = await Todos.find()
 
   res.status(200).json(todo)
@@ -65,6 +66,8 @@ const deleteTodo = asyncHandler(async (req, res) => {
     res.status(400)
     throw new Error('Todo not found')
   }
+
+  console.log(req.params.id)
 
   todo.remove()
 
